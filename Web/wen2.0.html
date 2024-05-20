@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pahadi Store</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="../img/LOGO.png" />
+</head>
+
+<body>
+    <!-- Menu -->
+    <div class="menu">
+        <nav>
+            <a href="./wen2.0.html"><label class="as"><img src="../img/DEV (1).png" alt="Logo"
+                        style="height: 100px; width: 400px; margin-top: 5px;margin-left:-70px;"></label></a>
+            <ul>
+
+                <li>
+                    <div class="navItem">
+                        <div class="search">
+                            <input type="text" placeholder="Search..." class="searchInput">
+                        </div>
+                    </div>
+                </li>
+                <li><ion-icon name="cart-outline" class="cart-icon link" id="cart-icon"></ion-icon>
+                    <span id="cart-badge">0</span>
+                </li>
+
+                <li><a href="#" class="link" style="font-size: 22px;">Home</a></li>
+                <li><a href="#about" class="link" style="font-size: 22px;">About</a></li>
+                <li><a href="#menu" class="link" style="font-size: 22px;">Products</a></li>
+                <li id="loginItem"><a href="../USER/login-2.html "class="link" style="font-size: 22px;">Login</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div id="sidebar" class="sidebar">
+        <a href="#" id="profile">Profile</a>
+        <a href="#" id="logout">Logout</a>
+    </div>
+    <!-- End Menu -->
+    <!-- Hero Section -->
+    <div class="colo">
+        <div class="section flex" id="hero-section">
+            <div class="text" style="color:black">
+                <div class="text">
+                    <h1 class="primary">Welcome to Store of<br> Delight</h1>
+                    <a href="#menu" class=" btn1">Explore products</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <!-- End Hero Section -->
+
+    <section class="section-products">
+        <div class="txt">
+            <h1>Our Top Selling product</h1>
+        </div>
+        <div class="container grid grid--3-cols margin-right-md">
+            <div class="product">
+                <img src="../img/Kaafal1.jpg" class="product-img" alt="kaafal" />
+                <div class="product-content">
+                    <div class="product-tags">
+                        <span class="tag tag--Fruit">Fruit</span>
+                    </div>
+                    <p class="product-title">KAAFAL</p>
+                    <ul class="product-attributes">
+                        <li class="product-attribute">
+                            <ion-icon class="product-icon"
+                                name="flame-outline"></ion-icon><span><strong>70/100gm</strong>
+                                calories</span>
+                        </li>
+                        <li class="product-attribute">
+                            <ion-icon class="product-icon" name="restaurant-outline"></ion-icon><span>Refreshing Flavor
+                            </span>
+                        </li>
+                        <li class="product-attribute">
+                            <ion-icon class="product-icon" name="star-outline"></ion-icon><span><strong>4.3</strong>
+                                rating
+                                (537)</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="../img/pisa_namak.jpg" class="product-img" alt="SALT" />
+                <div class="product-content">
+                    <div class="product-tags">
+                        <span class="tag tag--Salt">Salt</span>
+                    </div>
+                    <p class="product-title">SPICY SALT</p>
+                    <ul class="product-attributes">
+                        <li class="product-attribute">
+                            <ion-icon class="product-icon" name="flame-outline"></ion-icon><span>
+                                Spicy</span>
+                        </li>
+                        <li class="product-attribute">
+                            <ion-icon class="product-icon" name="restaurant-outline"></ion-icon><span>Enhanced
+                                Flavor</span>
+                        </li>
+                        <li class="product-attribute">
+                            <ion-icon class="product-icon" name="star-outline"></ion-icon><span><strong>4.8</strong>
+                                rating
+                                (441)</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="product">
+                <img src="../img/Madua.png" class="product-img" alt="Seed" />
+                <div class="product-content">
+                    <div class="product-tags">
+                        <span class="tag tag--Seed">SEED</span>
+                    </div>
+                    <p class="product-title">MADUWA</p>
+                    <ul class="product-attributes">
+                        <li class="product-attribute">
+                            <ion-icon class="product-icon" name="flame-outline"></ion-icon><span><strong>220</strong>
+                                calories</span>
+                        </li>
+                        <li class="product-attribute">
+                            <ion-icon class="product-icon" name="restaurant-outline"></ion-icon><span>Mild Sweetness
+                                <strong></strong></span>
+                        </li>
+                        <li class="product-attribute">
+                            <ion-icon class="product-icon" name="star-outline"></ion-icon><span><strong>4.4</strong>
+                                rating
+                                (349)</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <hr>
+
+    <!-- About -->
+    <div class="section" id="about">
+        <div class="container flex">
+            <div class="section-img-1">
+                <img src="../img/Cart-1.png" alt=""/>
+                <div class="primary-text"><h2>500+ Monthly Orders</h2></div>
+            </div>
+            <div class="text">
+                <div class="secondary-text-1">Uttarakhand, divided into the regions of <br>Kumaon and Garhwal</div>
+                <div class="secondary-text-2">Discover authentic Kumaon and Garhwal products on our website, capturing the essence of Uttarakhand.</div>
+                <a href="#menu" class="btn-text">Explore products</a>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <!-- Store Menu -->
+    <div class="section" id="menu">
+        <div class="container-menu">
+            <h4 class="fo">Recommended products</h4>
+            <ul class="category">
+                <li class="link" data-category="all">All</li>
+                <a href="../Other-section/Fruit-sec.html" class="link" data-category="fruits">
+                    <li>Fruits</li>
+                </a>
+                <a href="../Other-section/Vegetable-sec.html" class="link" data-category="vegetables">
+                    <li>Vegetables</li>
+                </a>
+                <a href="../Other-section/Pulse-section.html" class="link" data-category="pulses">
+                    <li>Pulses</li>
+                </a>
+                <a href="../Other-section/other-craft.html" class="link" data-category="crafts">
+                    <li>Aipen</li>
+                </a>
+
+                <a href="../Other-section/Spices-sec.html" class="link" data-category="spices">
+                    <li>Spices</li>
+                </a>
+            </ul>
+            <div class="container">
+                <div class="Store-menu">
+                    <!-- Product Items -->
+                    <div class="menu-item" data-category="fruits">
+                        <img src="../img/Kaafal1.jpg" alt="">
+                        <div class="title">KAAFAL <br>
+                            <br>(Himalayan Local Fruit )
+                        </div>
+                        <div class="location"><br><br>Uttarakhand, India</div>
+
+                        <div class="price order flex">₹ 199/200gm</div><br>
+                        <div class="quantity-container">
+                            <label for="quantity-input" class="quantity-show">Quantity:</label>
+                            <input type="number" value="1" class="quantity">
+                        </div>
+                        <br><br>
+                        <div class="bo">
+                            <button type="submit" name="addtocart" class="btn-menu" data-product-id="1">Add to
+                                Cart</button>
+
+                        </div>
+                    </div>
+
+                    <!-- Product 2 -->
+                    <div class="menu-item" data-category="pulses">
+                        <img src="../img/gahat-1.png" alt="">
+                        <div class="title">Gahat<br><br> (Nutricion Pulse)<br><br><br> </div>
+                        <div class="location">Uttarakhand, India</div>
+                        <div class="price order flex">₹ 179/500gm</div><br>
+                        <div class="quantity-container">
+                            <label for="quantity-input" class="quantity-show">Quantity:</label>
+                            <input type="number" value="1" class="quantity">
+                        </div>
+                        <br><br>
+                        <div class="bo">
+                            <button type="submit" name="addtocart" class="btn-menu" data-product-id="28">Add to
+                                Cart</button>
+
+                        </div>
+                    </div>
+                    <!-- Product 3 -->
+                    <div class="menu-item" data-category="fruits">
+                        <img src="../img/Aadu-1.jpg" alt="">
+                        <div class="title">Aadu <br><br>(Himalayan Local Fruit )</div>
+                        <div class="location"><br><br>Uttarakhand, India</div>
+                        <div class="price order flex">₹ 129/kg</div><br>
+                        <div class="quantity-container">
+                            <label for="quantity-input" class="quantity-show">Quantity:</label>
+                            <input type="number" value="1" class="quantity">
+                        </div>
+                        <br><br>
+                        <div class="bo">
+                            <button type="submit" name="addtocart" class="btn-menu" data-product-id="3">Add to
+                                Cart</button>
+
+                        </div>
+                    </div>
+                    <!-- Product 4 -->
+                    <div class="menu-item" data-category="fruits">
+                        <img src="../img/aamla.jpeg" alt="">
+                        <div class="title">Aamla <br><br>(Himalayan Local Fruit )</div>
+                        <div class="location"><br><br>Uttarakhand, India</div>
+                        <div class="price order flex">₹ 159/500gm</div><br>
+                        <div class="quantity-container">
+                            <label for="quantity-input" class="quantity-show">Quantity:</label>
+                            <input type="number" value="1" class="quantity">
+                        </div>
+                        <br><br>
+                        <div class="bo">
+                            <button type="submit" name="addtocart" class="btn-menu" data-product-id="15">Add to
+                                Cart</button>
+
+                        </div>
+                    </div>
+                    <!-- Product 5 -->
+                    <div class="menu-item" data-category="fruits">
+                        <img src="../img/bhatt-dal-.jpeg" alt="">
+                        <div class="title">Bhatt Dal <br><br>(Himalayan Local Black Pulse )</div>
+                        <div class="location"><br><br>Uttarakhand, India</div>
+                        <div class="price order flex">₹ 199/kg</div><br>
+                        <div class="quantity-container">
+                            <label for="quantity-input" class="quantity-show">Quantity:</label>
+                            <input type="number" value="1" class="quantity">
+                        </div>
+                        <br><br>
+                        <div class="bo">
+                            <button type="submit" name="addtocart" class="btn-menu" data-product-id="29">Add to
+                                Cart</button>
+
+                        </div>
+                    </div>
+                    <!-- Product 5 -->
+                    <div class="menu-item" data-category="vegetable">
+                        <img src="../img/cahulai.webp" alt="">
+                        <div class="title">Chaulai <br><br>(Himalayan Local Fruit )</div>
+                        <div class="location"><br><br>Uttarakhand, India</div>
+                        <div class="price order flex">₹ 50/2pack</div><br>
+                        <div class="quantity-container">
+                            <label for="quantity-input" class="quantity-show">Quantity:</label>
+                            <input type="number" value="1" class="quantity">
+                        </div>
+                        <br><br>
+                        <div class="bo">
+                            <button type="submit" name="addtocart" class="btn-menu" data-product-id="11">Add to
+                                Cart</button>
+
+                        </div>
+                    </div>
+                    <!-- Product 6 -->
+                    <div class="menu-item" data-category="vegetable">
+                        <img src="../img/Lai.jpeg" alt="">
+                        <div class="title">Lai <br><br>(Himalayan Green Leef Vegetable)</div>
+                        <div class="location"><br><br>Uttarakhand, India</div>
+                        <div class="price order flex">₹ 40/2pack</div><br>
+                        <div class="quantity-container">
+                            <label for="quantity-input" class="quantity-show">Quantity:</label>
+                            <input type="number" value="1" class="quantity">
+                        </div>
+                        <br><br>
+                        <div class="bo">
+                            <button type="submit" name="addtocart" class="btn-menu" data-product-id="22">Add to
+                                Cart</button>
+
+                        </div>
+                    </div>
+                    <!-- Product 7 -->
+                    <div class="menu-item" data-category="vegetables fruits">
+                        <img src="../img/Kathal.jpg" alt="">
+                        <div class="title">Kathal (jackfruit) <br><br>(Himalayan Local vegetables )</div>
+                        <div class="location"><br><br>Uttarakhand, India</div>
+                        <div class="price order flex">₹ 149/pcs.</div><br>
+                        <div class="quantity-container">
+                            <label for="quantity-input" class="quantity-show">Quantity:</label>
+                            <input type="number" value="1" class="quantity">
+                        </div>
+                        <br><br>
+                        <div class="bo">
+                            <button type="submit" name="addtocart" class="btn-menu" data-product-id="23">Add to
+                                Cart</button>
+
+                        </div>
+                    </div>
+                    <!-- Product 8 -->
+                    <div class="menu-item" data-category="crafts">
+                        <img src="../img/Aipen Art -2.jpg" alt="">
+                        <div class="title">Aipen (Cultural Art) <br><br>(Uttarakhand Aipen Art )</div>
+                        <div class="location"><br><br>Uttarakhand, India</div>
+                        <div class="price order flex">₹ 249/pcs.</div><br>
+                        <div class="quantity-container">
+                            <label for="quantity-input" class="quantity-show">Quantity:</label>
+                            <input type="number" value="1" class="quantity">
+                        </div>
+                        <br><br>
+                        <div class="bo">
+                            <button type="submit" name="addtocart" class="btn-menu" data-product-id="31">Add to
+                                Cart</button>
+
+                        </div>
+                    </div>
+                    <!-- Product 9 -->
+                    <div class="menu-item" data-category="crafts">
+                        <img src="../img/pichaudi.jpg" alt="">
+                        <div class="title">pichaudi <br><br>(Uttarakhand Cultural Cloths )</div>
+                        <div class="location"><br><br>Uttarakhand, India</div>
+                        <div class="price order flex">₹ 749/pcs.</div><br>
+                        <div class="quantity-container">
+                            <label for="quantity-input" class="quantity-show">Quantity:</label>
+                            <input type="number" value="1" class="quantity">
+                        </div>
+                        <br><br>
+                        <div class="bo">
+                            <button type="submit" name="addtocart" class="btn-menu" data-product-id="32">Add to
+                                Cart</button>
+
+                        </div>
+                    </div>
+                    <!-- Product 7 -->
+                    <div class="menu-item" data-category="seeds">
+                        <img src="../img/Bhang.jpeg" alt="">
+                        <div class="title">Bhang <br><br>(State Local Seed )</div>
+                        <div class="location"><br><br>Uttarakhand, India</div>
+                        <div class="price order flex">₹ 99/100gm.</div><br>
+                        <div class="quantity-container">
+                            <label for="quantity-input" class="quantity-show">Quantity:</label>
+                            <input type="number" value="1" class="quantity">
+                        </div>
+                        <br><br>
+                        <div class="bo">
+                            <button type="submit" name="addtocart" class="btn-menu" data-product-id="64">Add to
+                                Cart</button>
+
+                        </div>
+                    </div>
+                    <!-- Product 7 -->
+                    <div class="menu-item" data-category="others">
+                        <img src="../img/pisa_namak.jpg" alt="">
+                        <div class="title">Spicy Salt <br><br>(Uttarakhand salt mix with spices )</div>
+                        <div class="location"><br><br>Uttarakhand, India</div>
+                        <div class="price order flex">₹ 79/500gm.</div><br>
+                        <div class="quantity-container">
+                            <label for="quantity-input" class="quantity-show">Quantity:</label>
+                            <input type="number" value="1" class="quantity">
+                        </div>
+                        <br><br>
+                        <div class="bo">
+                            <button type="submit" name="addtocart" class="btn-menu" data-product-id="33">Add to
+                                Cart</button>
+                        </div>
+                    </div>
+                    <hr>
+                    <!-- Cart Modal -->
+                    <!-- Message  -->
+                    <div id="popup-message" class="msg">
+                        Item added to cart!
+                    </div>
+                    <!-- Message End -->
+                    <div id="cart-modal" class="modal">
+                        <div class="modal-content">
+                            <span class="close-button">&times;</span>
+                            <h2>Your Cart</h2>
+                            <ul id="cart-items">
+                                <!-- Cart items will be dynamically added here -->
+                            </ul>
+                            <p id="cart-total">Total: ₹ 0.00</p>
+                            <button id="clear-cart">Clear Cart</button>
+
+                            <button id="checkout-button" class="msg-2">Checkout</button>
+                        </div>
+                    </div>
+
+                    <!-- End Menu -->
+                    <!-- How It Works -->
+                    <div class="section" id="how-it-works">
+                        <div class="txt">
+                            <h1>How It's Work</h1>
+                        </div>
+
+                        <div class="container flex">
+                            <div class="box">
+                                <h3>Easy Order</h3>
+                                <ion-icon name="timer-outline"></ion-icon>
+                                <p> Browse our product catalog and<br> select the items you'd like to purchase
+                                </p>
+                            </div>
+
+                            <div class="box active">
+                                <h3>Best Quality</h3>
+                                <ion-icon style="color: black;" name="trophy-outline"></ion-icon>
+                                <p>
+                                    Where Quality Meets Perfection
+                                </p>
+                            </div>
+
+                            <div class="box">
+                                <h3>Cash On Delivery</h3>
+                                <ion-icon name="checkmark-done-circle-outline"></ion-icon>
+                                <p> Pay after delivery
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End How It Works -->
+
+                    <!-- FAQ Section -->
+                    <div class="section" id="faq">
+                        <h2 class="secondary">Frequently Asked Questions</h2>
+
+                        <div class="faq">
+                            <details>
+                                <summary>How long will it take for my order to be delivered?</summary>
+                                <div class="content">
+                                    <p>
+                                        Delivery times vary depending on your location and shipping method. You can
+                                        estimate the delivery time by entering your address at checkout or referring to
+                                        our shipping policy.
+                                    </p>
+                                </div>
+                            </details>
+
+                            <details>
+                                <summary>Can I track the status of my order?</summary>
+                                <div class="content">
+                                    <p>
+                                        Yes, you will receive a tracking number via email once your order has been
+                                        shipped. You can use this tracking number to monitor the status of your
+                                        delivery.
+                                    </p>
+                                </div>
+                            </details>
+
+                            <details>
+                                <summary>What payment methods do you accept?</summary>
+                                <div class="content">
+                                    <p>
+                                        We accept payments via credit/debit cards, PayPal, and other secure payment
+                                        gateways. You can select your preferred payment method at checkout.
+                                    </p>
+                                </div>
+                            </details>
+
+                            <details>
+                                <summary>I made a mistake in my order. Can I modify or cancel it?</summary>
+                                <div class="content">
+                                    <p>Please contact our customer support team as soon as possible with your order
+                                        details. We'll do our best to accommodate your request before the order is
+                                        processed.
+                                    </p>
+                                </div>
+                            </details>
+                            <details>
+                                <summary>What is your return policy</summary>
+                                <div class="content">
+                                    <p>We offer a 7 Day return policy for eligible items. Please refer to our return
+                                        policy page for detailed information on returns and exchanges.
+                                    </p>
+                                </div>
+                            </details>
+                            <details>
+                                <summary>"How can I contact your customer support team?</summary>
+                                <div class="content">
+                                    <p>You can reach our customer support team via email at Delight.org@gmail.com or
+                                        through our live chat feature on the website.
+                                    </p>
+                                </div>
+                            </details>
+                        </div>
+                        <hr>
+                    </div>
+
+                    <!-- Footer -->
+                    <div class="footer">
+                        <div class="container flex">
+                            <div class="footer-about">
+                                <h2>Follow Us</h2>
+                                <p>
+                                <ul>
+                                    <li> <a href="https://twitter.com/intent/tweet?text=kaafal" target="_blank">
+                                            <img src="../img/twitter.png" alt="Reload!"
+                                                style="width:20px; height:20px;"></a>
+                                        On Twitter
+                                    </li>
+
+                                    <li><a href="https://msng.link/o?kaafal=tg" target="_blank">
+                                            <img src="../img/telegram.png" alt="Reload!"
+                                                style="width:20px; height:20px;"></a>
+                                        On Telegram
+                                    </li>
+
+                                    <li><a href="https://msng.link/o?Kaafalorg=ig " target="_blank">
+                                            <img src="../img/insta.jpeg" alt="Reload!"
+                                                style="width:20px; height:20px;"></a>
+                                        On Instagram
+                                    </li>
+
+                                    <li><a href="https://www.facebook.com/sharer/sharer.php?u=kaafal" target="_blank">
+                                            <img src="../img/facebook.png" alt="Reload!"
+                                                style="width:20px; height:20px;"></a>
+                                        On Facebook
+                                    </li>
+                                </ul>
+                                </p>
+                            </div>
+
+                            <div class="footer-category">
+                                <h2>Our Menu</h2>
+
+                                <ul>
+                                    <li>Fruit</li>
+                                    <li>Vegetable</li>
+                                    <li>Pulses</li>
+                                    <li>Aipen</li>
+                                    <li> Spices</li>
+                                </ul>
+                            </div>
+
+                            <div class="quick-links">
+                                <h2>Quick Links</h2>
+
+                                <ul>
+                                    <li>About Us</li>
+                                    <li>Contact Us</li>
+
+                                </ul>
+                            </div>
+
+                            <div class="get-in-touch">
+                                <h2>Get in touch</h2>
+                                <ul>
+                                    <li>Account</li>
+                                    <li>Support Center</li>
+                                    <li>Feedback</li>
+                                    <li>Suggession</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="copyright">
+                            <p>Copyright &copy; 2024 Design By Team Devbhoomi Delight</p>
+                        </div>
+                    </div>
+
+                    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+                    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+                    <script type="module"
+                        src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.esm.js"></script>
+                    <script nomodule src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.js"></script>
+                    <script src="./log-out.js"></script>
+                    <script src="search.js"></script>
+                    <script src="./apk.js"></script>
+
+
+</body>
+
+</html>

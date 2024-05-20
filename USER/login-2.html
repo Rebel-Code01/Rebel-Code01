@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="login-2.css">
+    <link rel="icon" href="../img/LOGO.png"/>
+</head>
+<body>
+    <div class="container">
+        <div class="left-section"></div>
+        <div class="right-section">
+            <img src="../img/DEV (1).png" alt="Logo">
+            <p class="welcome">Welcome to Devbhumi</p>
+            <form id="loginForm">
+                <label for="username">Username</label>
+                <input type="text" id="username" name="username" required><br><br>
+                
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" required>
+                
+                <div class="options">
+                    <a href="#" class="forgot-password">Forgot password?</a>
+                </div>
+                
+                <input type="submit" value="Login">
+            </form>
+            <p class="create-account">Create new account <a href="./Sign_up.html"> Sign up </a></p>
+        </div>
+    </div>
+
+    <!-- The Modal -->
+    <div id="loginModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <p id="loginMessage" class="message-text"></p>
+        </div>
+    </div>
+    <script src="./login-2.js"></script>
+</body>
+</html>
